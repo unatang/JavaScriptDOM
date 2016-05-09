@@ -27,8 +27,11 @@ li
     padding: 1em;
     list-style: none;
 }
-img
+#imagegallery
 {
-    display: block;
-    clear: both;
+    display: inline;
+}
+#imagegallery li a img
+{
+    border:0;
 }
