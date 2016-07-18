@@ -1,0 +1,84 @@
+﻿*
+{
+    padding: 0px;
+    margin: 0px;
+}
+#total
+{
+    width: 500px;
+    height: 600px;
+    margin: 0 auto;
+    border: 1px solid black;
+    border-radius: 8px;
+    background: #D4CED3;
+}
+h1
+{
+    font-size: 20px;
+    padding: 10px 0px 10px 40px;
+    color: #888;
+    border-bottom: 1px solid black;
+}
+#chattext
+ {
+        width: 100%;
+        height: 50%;
+        margin: 0 auto;
+        border-bottom: 1px solid #E4E4E4;
+        overflow: auto;
+ }
+
+label
+ {
+     display: block;
+     margin: 0px 0px 5px;
+ }
+label > span
+ {
+     float: left;
+     width: 20%;
+     text-align: right;
+     padding-right: 15px;
+     margin-top: 10px;
+     font-weight: bold;
+ }
+#text
+ {
+     padding: 5px 0px 0px 5px;
+     width: 70%;
+}
+#name
+{
+     padding: 5px 0px 0px 5px;
+     width: 70%;
+}
+ #button
+{
+    background: #E27575;
+    border: none;
+    display: block;
+    float: right;
+    margin: 15px 30px 0px 0px;
+    padding: 10px 25px 10px 25px;
+    color: #FFF;
+    border-radius: 3px;
+    cursor: pointer;
+}
+#button: hover
+{
+    background-color: yellow;
+}
+#chattext > p
+{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    background-color: #F5B0E9;
+    line-height: 15px;
+}
+#chattext > p :nth-child(1)
+{
+    font-size: 10px;
+    font-family:  黑体
+}
